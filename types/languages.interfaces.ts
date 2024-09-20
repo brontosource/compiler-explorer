@@ -29,6 +29,7 @@ export type LanguageKey =
     | 'android-java'
     | 'android-kotlin'
     | 'assembly'
+    | 'bronto-translate'
     | 'c'
     | 'c++'
     | 'c3'

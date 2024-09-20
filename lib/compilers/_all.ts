@@ -28,6 +28,7 @@ export {AnalysisTool} from './analysis-tool.js';
 export {AssemblyCompiler} from './assembly.js';
 export {AvrGcc6502Compiler} from './avrgcc6502.js';
 export {BeebAsmCompiler} from './beebasm.js';
+export {BrontoTranslateCompiler} from './bronto-translate.js';
 export {C2RustCompiler} from './c2rust.js';
 export {C3Compiler} from './c3c.js';
 export {CarbonCompiler, CarbonExplorerCompiler} from './carbon.js';

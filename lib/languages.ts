@@ -134,6 +134,18 @@ const definitions: Record<LanguageKey, LanguageDefinition> = {
         previewFilter: null,
         monacoDisassembly: null,
     },
+    'bronto-translate': {
+        name: 'C -> Rust',
+        monaco: 'nc',
+        extensions: ['.c', '.h'],
+        alias: [],
+        logoFilename: 'bronto.svg',
+        logoFilenameDark: null,
+        formatter: 'clangformat',
+        previewFilter: /^\s*#include/,
+        monacoDisassembly: 'rust',
+        digitSeparator: "'",
+    },
     c: {
         name: 'C',
         monaco: 'nc',
