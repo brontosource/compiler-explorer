@@ -33,6 +33,12 @@
           - 'static/modes/asm-mode.ts'
           - 'static/modes/asm6502-mode.ts'
 
+'lang-bronto':
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'lib/compilers/bronto.ts'
+          - 'etc/config/bronto.*.properties'
+
 'lang-c':
   - changed-files:
       - any-glob-to-any-file:
